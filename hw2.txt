@@ -1,0 +1,7 @@
+1. git remote add origin  https://github.com/AlexM-Itu/Hw2PartC.git
+2. the URLs of that repository
+3. Nothing has appeared in the repository after fetch because the fetch happened to origin/master but I'm on master. Also there's nothing on the remote repo yet. If there was something there, I would git merge origin/master.
+4. git branch -r shows remote branches
+5. if there was another remote branch I could check it out using git checkout branchName and then git pull origin branchName.
+6. Bare repositiory is a repository that doesn't contain any user history and designed to be used on the server side. 7. It coulld be useful to git fetch a remote branch, compare it with the local copy asuming that the remote branch hhead is ahead of the local one and then decide if to merge it to the local branch or go and yell to it's most resent developer. 
+8. To push a branch there's a command git push origin branchName
